@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:text="TextView"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:background="@color/colorAccent"
+        android:textSize="100px" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:text="TextView"
+        android:textColor="#010101"
+        android:textAlignment="center"
+        android:layout_marginTop="400px"
+        android:textSize="50px" />
+</LinearLayout>
